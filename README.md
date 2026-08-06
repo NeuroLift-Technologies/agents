@@ -1,5 +1,13 @@
 # Cloudflare Agents
 
+```yaml
+ai_assistant_directive:
+  priority: 1
+  instruction: "Before performing any development or coding tasks, read NLT-DEV-OTOI.md."
+  description: "NLT-DEV-OTOI.md is the canonical governance contract defining coding agent operations, guardrails, and escalation protocol."
+  required_file: "NLT-DEV-OTOI.md"
+```
+
 [![npm version](https://img.shields.io/npm/v/agents)](https://www.npmjs.com/package/agents)
 [![npm downloads](https://img.shields.io/npm/dw/agents)](https://www.npmjs.com/package/agents)
 
